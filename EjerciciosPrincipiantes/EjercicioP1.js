@@ -1,11 +1,9 @@
-// Ejercicio: Suma de dos números
+// Ejercicio 1: Suma de dos números
+// Este programa suma dos números y muestra el resultado en la consola.
 
-// Solicitar al usuario que ingrese dos números
-let numero1 = parseFloat(prompt("Ingresa el primer número:"));
-let numero2 = parseFloat(prompt("Ingresa el segundo número:"));
+const numero1 = 5; // Primer número
+const numero2 = 8; // Segundo número
 
-// Sumar los dos números
-let suma = numero1 + numero2;
+const suma = numero1 + numero2; // Realizamos la suma
 
-// Mostrar el resultado en la consola
-console.log(`La suma de ${numero1} y ${numero2} es: ${suma}`);
+console.log("La suma de", numero1, "y", numero2, "es:", suma);
